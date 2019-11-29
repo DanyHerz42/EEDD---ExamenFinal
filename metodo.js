@@ -1,4 +1,4 @@
-extraer(){
+function extraer(){
   if (this._inicio.prioridad === 1) {
     let aux = this._inicio;
     this._inicio = this._inicio.siguiente;
